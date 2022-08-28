@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <input v-model="form.id">
+    <span>search</span>
     <button @click="clickbutton()">{{ click }}</button>
   </div>
 </template>
