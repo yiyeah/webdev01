@@ -4,7 +4,7 @@
     <input v-model="form.id">
     <span>search</span>
     <button @click="clickbutton()">{{ click }}</button>
-    <span>test1</span>
+    <span>testadwawd</span>
   </div>
 </template>
 
