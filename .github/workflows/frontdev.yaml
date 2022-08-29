@@ -37,5 +37,5 @@ jobs:
           username: root,
           password: Abc12345,
           port: 22,
-          source: 'front_dev/test_front/'
-          target: '/www/'
+          source: 'dist/*'
+          target: '/www/dist'
