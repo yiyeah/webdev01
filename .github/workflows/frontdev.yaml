@@ -28,6 +28,7 @@ jobs:
           node-version: "14.X"
       - name: in
         run: cd ./front_dev/test_front  
+      - name: show
         run: pwd
       - name: install deps
         run: npm install
