@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <input v-model="form.id">
     <span>{{click}}</span>
-    <button @click="clickbutton()">search</button>
+    <button @click="clickbutton()">search name</button>
   </div>
 </template>
 
