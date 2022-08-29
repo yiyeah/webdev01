@@ -33,9 +33,9 @@ jobs:
       - name: SCP Files
         uses: appleboy/scp-action@v0.0.1
         with:
-          host: 43.140.248.122,
-          username: root,
-          password: Abc12345,
-          port: 22,
-          source: dist/*
-          target: /www/dist
+          host: "43.140.248.122"
+          username: "root"
+          password: "Abc12345"
+          port: 22
+          source: "dist/*"
+          target: "/www/dist'"
