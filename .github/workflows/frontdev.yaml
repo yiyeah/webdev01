@@ -26,12 +26,6 @@ jobs:
         uses: actions/setup-node@v3.4.1
         with:
           node-version: "14.X"
-      - name: ls
-        run: ls 
-      - name: in
-        run: cd ./front_dev/test_front  
-      - name: show
-        run: pwd
       - name: install deps
         run: npm install
       - name: build app
