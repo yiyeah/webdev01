@@ -38,4 +38,4 @@ jobs:
           password: "Abc12345"
           port: 22
           source: "dist/*"
-          target: "/www/dist'"
+          target: "/www/dist"
