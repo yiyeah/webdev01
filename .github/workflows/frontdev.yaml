@@ -31,7 +31,7 @@ jobs:
       - name: build app
         run: npm run build
       - name: SCP Files
-        uses: appleboy/scp-action@v0.0.1
+        uses: appleboy/scp-action@master
         with:
           host: "43.140.248.122"
           username: "root"
