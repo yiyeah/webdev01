@@ -2,9 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <input v-model="form.id">
-    <span>search</span>
-    <button @click="clickbutton()">{{ click }}</button>
-    <span>testadwawd</span>
+    <span>{{click}}</span>
+    <button @click="clickbutton()">search</button>
   </div>
 </template>
 
@@ -16,7 +15,7 @@ export default {
   },
   data(){
     return{
-      click: "click me!",
+      click: "null",
       form:{
         id: "1",
       }
@@ -24,14 +23,12 @@ export default {
   },
   methods: {
     async clickbutton(){
-      if(this.click != 'click me!'){
-        this.click = "click me!"
-      }
-      else{
         const {data:res} = await this.$http.post("test",this.form);
         console.log(res);
-        this.click = res.name;
-      }  
+        if(res==='')
+          this.click = 'can not find';
+        else
+          this.click = res.name 
     }
   }
 }
