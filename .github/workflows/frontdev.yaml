@@ -31,11 +31,11 @@ jobs:
       - name: build app
         run: npm run build
       - name: SCP Files
-        uses: actions/setup-node@v3.4.1
+        uses: applyboy/scp-action@v0.0.1
         with:
           host: 43.140.248.122,
           username: root,
           password: Abc12345,
           port: 22,
-          source: 'dist/*'
-          target: '/www/dist'
+          source: dist/*
+          target: /www/dist
