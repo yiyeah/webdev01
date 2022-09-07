@@ -1,0 +1,6 @@
+projectKey=group9_group9_frontend
+serverUrl=http://10.134.136.70:9000
+serverVersion=7.3.0.15553
+dashboardUrl=http://10.134.136.70:9000/dashboard?id=group9_group9_frontend
+ceTaskId=AYL-Q23q_6GISEPIdSMD
+ceTaskUrl=http://10.134.136.70:9000/api/ce/task?id=AYL-Q23q_6GISEPIdSMD
